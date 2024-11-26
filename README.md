@@ -1,3 +1,8 @@
+---
+## Cloud-Based Server URL
+**Testing URL**: []
+---
+
 #Group Information
 
 - **Group No:** 381project45
@@ -88,16 +93,26 @@
 ├── userModel.ejs
 
 ```
----
-## Cloud-Based Server URL
-**Testing URL**: []
----
+
 ## Operation Guide
 ### Login/Logout Pages
 - **Valid Login Information**:
-  - Username: `testuser`
-  - Password: `password123`
+  - Username: `zz`
+  - Password: `zz`
 - **Steps**:
   1. Navigate to `/login`.
   2. Enter valid credentials and submit.
   3. Use the logout button to end the session.
+
+### CRUD Web Pages
+- **Create**: Use the "Create New Recipe" button on the homepage to add a new recipe.
+- **Read**: View existing recipes and photos on the homepage.
+- **Update**: Click the "Edit" button next to a recipe, modify the details, and save.
+- **Delete**: Use the "Delete" button to remove a recipe.
+
+### RESTful CRUD Services
+- **API Endpoints**:
+  - **Create**: `POST /api/recipes` - Adds a new recipe.
+  - **Read**: `GET /api/recipes` - Retrieves all recipes.
+  - **Update**: `PUT /api/recipes/:id` - Updates a recipe by ID.
+  - **Delete**: `DELETE /api/recipes/:id` - Deletes a recipe by ID.
